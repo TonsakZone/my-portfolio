@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .meButton {
+    @apply px-6 py-2 border border-[#9C6644] 
+    rounded-full uppercase text-sm tracking-widest text-white text-xs
+    transition-all hover:border-[#7F5539]/40 hover:text-[#EDE0D4]/40
+  }
+}
